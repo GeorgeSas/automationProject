@@ -26,7 +26,7 @@ public class AddToCartTest {
 	@Steps
 	public CartSteps cartSteps;
 
-	//@Test
+	@Test
 	public void add_to_cart_using_quick_view_and_product_view() {
 		navigationSteps.open_home_page_and_maximize_window();
 		navigationSteps.click_the_shop_button_from_home_page();
@@ -85,7 +85,7 @@ public class AddToCartTest {
 		navigationSteps.waitABit(2000); // Used during development to be able to view last action
 	}
 
-	@Test
+	//@Test
 	public void add_to_cart_and_check_total_price() {
 		navigationSteps.open_home_page_and_maximize_window();
 		navigationSteps.click_the_shop_button_from_home_page();
