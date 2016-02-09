@@ -16,7 +16,7 @@ import net.thucydides.junit.annotations.UseTestDataFrom;
 
 @RunWith(SerenityParameterizedRunner.class)
 @UseTestDataFrom("src\\test\\resources\\testData\\customerCareData.csv")
-public class CustomerCareFormTest {
+public class CustomerCareForm {
 
 	@Managed(uniqueSession = true)
 	public WebDriver webdriver;
