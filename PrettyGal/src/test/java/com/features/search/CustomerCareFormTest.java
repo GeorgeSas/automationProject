@@ -37,7 +37,7 @@ public class CustomerCareFormTest {
 	@Steps
 	public CustomerCareSteps customerCareSteps;
 
-	@Test
+	//@Test
 	public void customer_care_form_test() throws Exception {
 		navigationSteps.open_home_page_and_maximize_window();
 		navigationSteps.open_customer_care_from_menu();
@@ -46,7 +46,7 @@ public class CustomerCareFormTest {
 
 		customerCareSteps.check_return_message_is(response);
 		
-		/*if (response.contains("Message received")){
+		if (response.contains("Message received")){
 			navigationSteps.waitABit(7000); // wait 7 seconds
 			customerCareSteps.connect_and_get_unread_emails();
 			customerCareSteps.check_email_subject_is("New message via your Wix website, from  " + email);
@@ -59,7 +59,7 @@ public class CustomerCareFormTest {
 			navigationSteps.waitABit(10000); // wait 10 seconds
 			customerCareSteps.connect_and_get_unread_emails();
 			customerCareSteps.no_unread_emails_expected();
-		}*/
+		}
 
 	}
 
