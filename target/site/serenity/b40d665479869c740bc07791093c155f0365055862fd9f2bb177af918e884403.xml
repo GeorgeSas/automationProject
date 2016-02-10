@@ -1,0 +1,39 @@
+<acceptance-test-run title="Searching by keyword banana should display the corresponding article" name="searching_by_keyword_banana_should_display_the_corresponding_article" steps="4" successful="4" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="24622" timestamp="2016-02-10T17:37:36.392+02:00">
+  <user-story id="com.features.search.SearchByKeywordStory" name="Search by keyword story" path="com.features.search"/>
+  <tags>
+    <tag name="Search" type="capability"/>
+    <tag name="Search" type="feature"/>
+    <tag name="Search/Search by keyword story" type="story"/>
+  </tags>
+  <test-step result="SUCCESS" duration="13775">
+    <screenshots>
+      <screenshot image="a1a804e0fe75610947ee9c977f771e2d.png"/>
+    </screenshots>
+    <description>Is the home page</description>
+  </test-step>
+  <test-group name="Looks for: &lt;span class=&apos;step-parameter&apos;&gt;pear&lt;/span&gt;" result="SUCCESS">
+    <screenshots>
+      <screenshot image="b49f0e6fb8b2654b8297e55cef46f2ca.png"/>
+    </screenshots>
+    <test-step result="SUCCESS" duration="2589">
+      <screenshots>
+        <screenshot image="b49f0e6fb8b2654b8297e55cef46f2ca.png"/>
+        <screenshot image="8cfc4720e64f12849e77b9c5b6a177b1.png"/>
+      </screenshots>
+      <description>Enters: &lt;span class=&apos;step-parameter&apos;&gt;pear&lt;/span&gt;</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="3935">
+      <screenshots>
+        <screenshot image="8cfc4720e64f12849e77b9c5b6a177b1.png"/>
+        <screenshot image="6140748115f7167beb4d0a66b05ea249.png"/>
+      </screenshots>
+      <description>Starts search</description>
+    </test-step>
+  </test-group>
+  <test-step result="SUCCESS" duration="1019">
+    <screenshots>
+      <screenshot image="6140748115f7167beb4d0a66b05ea249.png"/>
+    </screenshots>
+    <description>Should see definition: &lt;span class=&apos;step-parameter&apos;&gt;An edible fruit produced by the pear tree, similar to an apple but elongated towards the stem.&lt;/span&gt;</description>
+  </test-step>
+</acceptance-test-run>
